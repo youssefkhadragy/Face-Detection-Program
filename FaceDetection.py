@@ -2,10 +2,7 @@ import cv2
 import sys
 
 cascPath1 = "FaceData.xml"
-cascPath2 = "BananaData.xml"
 faceCascade = cv2.CascadeClassifier(cascPath1)
-bananaCascade = cv2.CascadeClassifier(cascPath2)
-
 video_capture = cv2.VideoCapture(0)
 
 while True:
